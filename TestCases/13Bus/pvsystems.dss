@@ -1,0 +1,66 @@
+New XYCurve.MyPvsT npts=4  xarray=[0  25  75  100]  yarray=[1.2 1.0 0.8  0.6] 
+New XYCurve.MyEff npts=4  xarray=[.1  .2  .4  1.0]  yarray=[.86  .9  .93  .97] 
+New loadshape.MyIrrad npts=24 interval=1
+mult=[0 0 0 0 0 0 0.1 0.2 0.3 0.5 0.8 0.9 1.0 1.0 0.99 0.9 0.7 0.4 0.1 0 0 0 0 0]
+New Tshape.Mytemp npts=24 interval=1
+temp=[25 25 25 25 25 25 25 25 35 40 45 50 60 60 55 40 35 30 25 25 25 25 25 25]
+New PVSystem.PV671 phases=3 bus1=671.1.2.3 kv=4.16 irrad=0.98 pmpp=1732.5 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV634a phases=1 bus1=634.1 kv=0.277 irrad=0.98 pmpp=240.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV634b phases=1 bus1=634.2 kv=0.277 irrad=0.98 pmpp=180.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV634c phases=1 bus1=634.3 kv=0.277 irrad=0.98 pmpp=180.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV645 phases=1 bus1=645.2 kv=2.4 irrad=0.98 pmpp=255.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV646 phases=1 bus1=646.2.3 kv=4.16 irrad=0.98 pmpp=345.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV692 phases=1 bus1=692.3.1 kv=4.16 irrad=0.98 pmpp=255.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV675a phases=1 bus1=675.1 kv=2.4 irrad=0.98 pmpp=727.5 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV675b phases=1 bus1=675.2 kv=2.4 irrad=0.98 pmpp=102.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV675c phases=1 bus1=675.3 kv=2.4 irrad=0.98 pmpp=435.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV611 phases=1 bus1=611.3 kv=2.4 irrad=0.98 pmpp=255.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV652 phases=1 bus1=652.1 kv=2.4 irrad=0.98 pmpp=192.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV670a phases=1 bus1=670.1 kv=2.4 irrad=0.98 pmpp=25.5 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV670b phases=1 bus1=670.2 kv=2.4 irrad=0.98 pmpp=99.0 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
+New PVSystem.PV670c phases=1 bus1=670.3 kv=2.4 irrad=0.98 pmpp=175.5 temperature=25 pf=1
+%cutin=0 %cutout=2 effcurve=MyEff P-tCurve=MyPvsT Daily=MyIrrad Tdaily=Mytemp
+
+
