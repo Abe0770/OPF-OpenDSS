@@ -1,0 +1,4 @@
+py_dss_interface==1.0.2
+pandas==2.0.3
+numpy==1.25.2
+matplotlib==3.8.2

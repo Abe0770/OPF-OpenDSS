@@ -1,0 +1,34 @@
+
+LOSSES REPORT
+
+Power Delivery Element Loss Report
+
+Element                  kW Losses    % of Power   kvar Losses
+
+"Transformer.SUB"                      0.02444,     0.00     0.199709
+"Transformer.REG1"                     0.09241,     0.01     0.0941793
+"Transformer.REG2"                     0.05053,     0.01     0.0522732
+"Transformer.REG3"                     0.10122,     0.01     0.102983
+"Transformer.XFM1"                     4.26971,     1.19     7.76362
+"Capacitor.CAP1"                       0.00000,      0.0     -612.422
+"Capacitor.CAP2"                       0.00000,      0.0     -97.4024
+"Line.650632"                         45.76223,     1.44     123.144
+"Line.632670"                          9.73923,     0.41     26.0167
+"Line.670671"                         17.04542,     0.77     45.4087
+"Line.671680"                          0.00000,      0.0     -0.00358292
+"Line.632633"                          0.63381,     0.18     0.676288
+"Line.632645"                          2.18870,     0.60     1.5816
+"Line.645646"                          0.42655,     0.20     0.282716
+"Line.692675"                          3.21829,     0.43     1.86877
+"Line.671684"                          0.46932,     0.18     0.315155
+"Line.684611"                          0.30874,     0.21     0.261544
+"Line.684652"                          0.65380,     0.58     0.145057
+"Line.671692"                          0.00001,      0.0     -2.91038E-014
+
+LINE LOSSES=                        80.4 kW
+TRANSFORMER LOSSES=                  4.5 kW
+
+TOTAL LOSSES=                       85.0 kW
+
+TOTAL LOAD POWER =                3086.7 kW
+Percent Losses for Circuit =      2.75 %
